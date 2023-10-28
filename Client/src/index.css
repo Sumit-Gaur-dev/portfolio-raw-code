@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Roboto+Condensed&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  #root{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .App{
+    height: 100%;
+    width: 100%;
+    
+  }
+
+
+
+
+button {
+  font: inherit;
+  background-color: #240370;
+  color: white;
+  border: 1px solid #240370;
+  padding: 0.2rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 2px;
+}
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: #ccc;
+  color: #292929;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid input:focus {
+  border-color: #0099f2;
+  background-color: #0ac2bf;
+}
+
+.error-text {
+  color: rgb(148 163 184 / var(--tw-text-opacity))
+}
