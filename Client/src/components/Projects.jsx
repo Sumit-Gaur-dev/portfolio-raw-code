@@ -1,21 +1,21 @@
 import React from 'react'
 import Portfolio from "../resources/Untitled.png"
-import Blog from "../resources/Blog"
-import Todo from "../resources/TODO"
+import Blog from "../resources/Blog.png"
+import Todo from "../resources/TODO.png"
 import Card from './Card'
 
 export default function Projects() {
   const projects = [
     {
       id:1,
-      path:Portfolio,
+      path:Todo,
       content:"React, ReduxTK, MongoDB, ExpressJs",
       title:"TODO App",
       redirectLink:"thiashidftioasdfisdfasdfsadfsadf.com"
     },
     {
       id:2,
-      path:Image,
+      path:Blog,
       content:"React, ReactRouter, MongoDB, ExpressJs, JWT, Multer ",
       title:"Blog App",
       redirectLink:"thiashidftioasdfisdfasdfsadfsadf.com"

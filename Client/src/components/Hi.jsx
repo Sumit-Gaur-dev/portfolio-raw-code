@@ -10,7 +10,7 @@ import {AiFillYoutube} from "react-icons/ai"
 export default function Hi() {
   const name = "  Sumit";
   const hireMe = (e) => {
-      console.log(e)
+      window.scroll({top:3000, left:0 , behavior:'smooth'})
   }
   
   return (
