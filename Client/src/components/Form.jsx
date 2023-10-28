@@ -66,11 +66,9 @@ const Form = () => {
         headers: { "Content-Type": "application/json" },
       })
       if(response.ok){
-        console.log(response);
         alert("Email Sent Successfully")
       }
     }catch(error){
-    // console.log(error.message)
      alert("something went wrong try again later"); 
     }
     
