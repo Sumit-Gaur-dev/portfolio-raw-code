@@ -60,7 +60,7 @@ const Form = () => {
 
     //Request to backend
     try{
-      const response = await fetch("http://localhost:4000/send",{
+      const response = await fetch("https://sumit-portfolio-app.onrender.com/send",{
         method:"POST",
         body: JSON.stringify({ enteredName, enteredEmail, message }),
         headers: { "Content-Type": "application/json" },

@@ -17,7 +17,7 @@ export default function Header() {
 
  
     return (
-      <div className=' max-w-4xl  pt-3 w-full font-header bg-blue-900 sticky top-0 text-cyan-100 flex items-center justify-between ' >
+      <div className=' max-w-full pt-3 w-full font-header bg-blue-900 sticky top-0 text-cyan-100 flex items-center justify-between ' >
       <h1 className='ml-4 text-2xl'>{name}</h1>
 
    <div className='hidden md:flex mr-4 text-sm' >

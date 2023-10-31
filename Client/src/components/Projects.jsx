@@ -11,21 +11,21 @@ export default function Projects() {
       path:Todo,
       content:"React, ReduxTK, MongoDB, ExpressJs",
       title:"TODO App",
-      redirectLink:"thiashidftioasdfisdfasdfsadfsadf.com"
+      redirectLink:"https://github.com/Sumit-Gaur-dev/TODO-Raw.git"
     },
     {
       id:2,
       path:Blog,
       content:"React, ReactRouter, MongoDB, ExpressJs, JWT, Multer ",
       title:"Blog App",
-      redirectLink:"thiashidftioasdfisdfasdfsadfsadf.com"
+      redirectLink:"https://github.com/Sumit-Gaur-dev/Blog-App-Raw.git"
     },
     {
       id:3,
       path:Portfolio,
       content:"React, ReactRouter, MongoDB, ExpressJs, JWT, Multer ",
       title:"PortFolio App",
-      redirectLink:"thiashidftioasdfisdfasdfsadfsadf.com"
+      redirectLink:"https://github.com/Sumit-Gaur-dev/portfolio-raw-code.git"
     }
 
  
